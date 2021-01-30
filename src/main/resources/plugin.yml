@@ -1,0 +1,13 @@
+name: nine_live
+version: ${project.version}
+main: com.arturbik.Live
+api-version: 1.16
+authors: [ Arturbik ]
+description: nine live
+commands:
+  life:
+    description: Плагин для ограничения жизней.
+    aliases: [live]
+    usage: Синтаксическая ошибка. Пробуй писать /life <nick> <[set, add, remove, get] [x >= 0]>
+    permission: op
+    permission-message: У вас нет прав. Только операторы.
